@@ -1,0 +1,7 @@
+useDynLib(MCGK, .registration=TRUE)
+export(mcgk.test.preset)
+export(mcgk.dist.test)
+export(mcgk.proj.test)
+importFrom(Rcpp, evalCpp)
+importFrom(stats, quantile)
+importFrom(stats, dist)
